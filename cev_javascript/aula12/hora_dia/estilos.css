@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(4, 4, 82);
+    text-align: center;
+    color: white;
+    font: arial bold;
+}
+#container
+{
+    font: 30px Arial bold;
+    color:black;
+    background-color: white;
+    height: 400px;
+    width: 630px;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.582);
+}
+#imagem
+{
+    border-style: solid;
+    border-radius: 200px;
+    height: 315px;
+    width: 315px;
+}
