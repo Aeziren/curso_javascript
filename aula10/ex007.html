@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex007</title>
+    <style>
+        body
+        {
+            text-align: center;
+        }
+        #input1, #input2
+        {
+            width: 50pt;
+            text-align: center;
+        }
+        #result
+        {
+            font: 18pt Arial bold;
+            text-align: center;
+            margin: auto;
+            margin-top: 15pt;
+            width: 120pt;
+            height: 40pt;
+            line-height: 40pt;
+            background-color: azure;
+            border-style: ridge;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="text" id="input1">
+    <strong>+</strong>
+    <input type="text" id="input2">
+    <button type="button" onclick="somar()">Somar!</button>
+    <div id="result">
+        
+    </div>
+
+    <script>
+        let result= document.querySelector('#result')
+        function somar()
+        {
+            let n1 = document.querySelector('#input1')
+            let n2 = document.querySelector('#input2')
+            n1 = Number(n1.value)
+            n2 = Number(n2.value)
+            result.innerText = n1 + n2
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body
+{
+    background-color: salmon;
+}
+header
+{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    text-shadow: 2px 2px 4px black;
+}
+section
+{
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 35px;
+}
+footer
+{
+    text-align: center;
+    font: Bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+#output
+{
+    text-align: justify;
+}

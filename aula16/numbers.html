@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Numbers</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Números</h1>
+    </header>
+    <section>
+        <div class="box">
+            Número entre 1 e 100: <input type="number" id="number">
+            <button type="button" id="add" onclick="add()">Adicionar</button>
+            <button type="button" onclick="result()">Resultado</button>
+            <hr>
+            <div id="output">
+                
+            </div>
+        </div>
+        <div class="box">
+            Histórico:
+            <hr>
+            <ul id="lista">
+                
+            </ul>  
+        </div>
+    </section>
+    <footer>
+        &copy;Aeziren
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
